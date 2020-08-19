@@ -1,0 +1,24 @@
+.wrapper {
+    width: 500px;
+    border: 12px solid gray;
+    padding: 30px;
+    margin: auto; 
+    background-image: url(https://www.generate-password.com/images/og-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.smallbox {
+    width: 450px;
+    border: 8px solid black;
+    padding: 25px;
+    margin: auto;
+  
+}
+
+.opening {
+    font-family: 'Patua One', cursive;
+    font-size: 36px;
+    text-align: center;
+    color: blue;
+}
