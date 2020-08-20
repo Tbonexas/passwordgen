@@ -13,8 +13,17 @@
         <div class="wrapper">
             <header>
                 <h1 class="opening">Quick, Safe, and Secure Password Generator.</h1>
-                <div class="smallbox"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, rerum vero dolor alias, voluptates vel nostrum hic est quos accusamus quasi! Ratione totam, quis eveniet at provident rerum sint dolor.</p></div>
-            </header>
+                <div class="smallbox">How many characters? <input type="number" id="charNum" value="12" min="8" max="100" /><br />
+                    Number: <input type="checkbox" id="num"/>
+                    Symbol: <input type="checkbox" id="sym"/><br />
+                    <button id="submit">Submit</button><br />
+                    Your Password: <input type="text" id="yourPw" size="60"/><p><strong>Above </strong>you can select a minimum value of 8 characters up to 128 characters. You may also select "numbers" and "symbols" as a category to help you creat a stronger password.</p></div>
+            
+            
+            
+                    <script src="java.js"></script>
+                </header>
+
         </div>
     </body>
 </html>
