@@ -1,16 +1,18 @@
+html {
+    background-image: url(https://eskipaper.com/images/free-light-wallpaper-2.jpg);
+}
+
 .wrapper {
     width: 500px;
-    border: 12px solid gray;
+    border: 12px solid blue;
     padding: 30px;
     margin: auto; 
-    background-image: 
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1012349138/thumb/1.jpg)
 }
 
 .smallbox {
     width: 450px;
-    border: 8px solid black;
+    border: 8px solid blue;
     padding: 25px;
     margin: auto;
   
@@ -20,5 +22,17 @@
     font-family: 'Patua One', cursive;
     font-size: 36px;
     text-align: center;
-    color: blue;
+    color: red;
+    background-color: lightblue;
+}
+
+.smallbox {
+    color:red;
+    background-color:lightblue;
+    font-weight: bolder;
+}
+
+#info {
+    font-size: 24px;
+    text-align: center;
 }

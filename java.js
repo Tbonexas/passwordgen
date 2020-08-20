@@ -8,6 +8,7 @@ var symBox = document.getElementById("sym");
 var submit = document.getElementById("submit");
 var yourPw = document.getElementById("yourPw");
 
+
 submit.addEventListener("click",function(e){
     var characters = char;
     (numBox.checked) ? characters += num : '';
