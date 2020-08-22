@@ -3,7 +3,7 @@ html {
 }
 
 .wrapper {
-    width: 550px;
+    width: 518px;
     border: 12px transparent lightcoral;
     padding: 30px;
     margin: auto; 
@@ -12,7 +12,7 @@ html {
 
 .smallbox {
     width: 450px;
-    border: 8px transparent blue;
+    border: 8px solid lightblue;
     padding: 25px;
     margin: auto;
   
@@ -23,12 +23,13 @@ html {
     font-size: 36px;
     text-align: center;
     color:red;
-    background-color: lightblue;
+    background-color: lightgray;
+    border: 12px solid lightblue;
 }
 
 .smallbox {
     color:red;
-    background-color:lightblue;
+    background-color:lightgray;
     font-weight: bolder;
 }
 
