@@ -3,16 +3,16 @@ html {
 }
 
 .wrapper {
-    width: 500px;
-    border: 12px solid blue;
+    width: 550px;
+    border: 12px transparent lightcoral;
     padding: 30px;
     margin: auto; 
-    background-image: url(https://ak.picdn.net/shutterstock/videos/1012349138/thumb/1.jpg)
+    /* background-image: url(https://ak.picdn.net/shutterstock/videos/1012349138/thumb/1.jpg) */
 }
 
 .smallbox {
     width: 450px;
-    border: 8px solid blue;
+    border: 8px transparent blue;
     padding: 25px;
     margin: auto;
   
@@ -22,7 +22,7 @@ html {
     font-family: 'Patua One', cursive;
     font-size: 36px;
     text-align: center;
-    color: red;
+    color:red;
     background-color: lightblue;
 }
 
