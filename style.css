@@ -1,5 +1,7 @@
 html {
-    background-image: url(https://eskipaper.com/images/free-light-wallpaper-2.jpg);
+    background-image: url(https://www.power-technology.com/wp-content/uploads/sites/7/2018/12/Neutrino-2-Cell.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .wrapper {
@@ -18,17 +20,18 @@ html {
   
 }
 
-.opening {
+#opening {
     font-family: 'Patua One', cursive;
     font-size: 36px;
     text-align: center;
-    color:red;
+    color:black;
     background-color: lightgray;
     border: 12px solid lightblue;
+    
 }
 
 .smallbox {
-    color:red;
+    color:black;
     background-color:lightgray;
     font-weight: bolder;
 }
@@ -36,4 +39,24 @@ html {
 #info {
     font-size: 24px;
     text-align: center;
+}
+
+.footer, .push {
+    height: 50px;
+   
+
+    
+}
+
+#foottext {
+    text-align: center;
+    color: white;
+    font-size: 14px; 
+}
+
+#fonttext2 {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Bowlby One SC', cursive;
 }

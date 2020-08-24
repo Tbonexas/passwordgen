@@ -7,12 +7,14 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <!--Links to Css style sheet, Java, and google fonts-->
         <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+        <!--Link to my css style sheet for boxes-->
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+
         <div class="wrapper">
             <header>
-                <h1 class="opening">The Quick, Safe, and Secure Password Generator.</h1>
+                <h1 id="opening">The Quick, Safe, and Secure Password Generator.</h1>
                 <div class="smallbox">Password length: <input type="number" id="charNum" value="12" min="8" max="128" /><br />
                     Numbers: <input type="checkbox" id="num"/>
                     Symbols: <input type="checkbox" id="sym"/><br/>
@@ -24,5 +26,11 @@
                 </header>
 
         </div>
+        <div class="push">
+        <footer class="footer">
+            <p id="fonttext2"> Password Generator</p> 
+            <p id="foottext">by Todd M. Wayment</p>
+        </div>
+        </footer>
     </body>
 </html>
