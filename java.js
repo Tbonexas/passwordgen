@@ -20,6 +20,7 @@ submit.addEventListener("click",function(e){
     yourPw.value = password(charNum.value, characters);
 });
 
+/* the generator function using math floor and random to generate password with character selection, symbols, and numbers*/
 function password(l,characters){
 		var pwd = '';
     for(var i = 0; i<l; i++){
